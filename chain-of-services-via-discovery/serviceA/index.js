@@ -1,13 +1,13 @@
 import got from "got";
 import express from "express";
 
-const oktetoDivertHeader = "baggage.okteto-divert";
+const baggageHeader = "baggage";
 const app = express();
 const PORT = 8080;
 
-function getDivertKeyFromHeaders(headers) {
-  if (headers && headers[oktetoDivertHeader]) {
-    return headers[oktetoDivertHeader];
+function getBaggageHeader(headers) {
+  if (headers && headers[baggageHeader]) {
+    return headers[baggageHeader];
   }
 
   return undefined;
@@ -15,9 +15,9 @@ function getDivertKeyFromHeaders(headers) {
 
 function buildHeaders(headers) {
   var options = { headers: {} };
-  const divertKey = getDivertKeyFromHeaders(headers);
-  if (divertKey) {
-    options.headers["baggage.okteto-divert"] = divertKey;
+  const baggage = getBaggageHeader(headers);
+  if (baggage) {
+    options.headers[baggageHeader] = baggage;
     //add other headers that you might need to propagate
   }
 
@@ -25,14 +25,8 @@ function buildHeaders(headers) {
 }
 
 function buildTargetServiceUrl(headers) {
-  const divertKey = getDivertKeyFromHeaders(headers);
-  if (divertKey) {
-    // when diverted, route the request to the service on the diverted namespace.
-    return `https://serviceb-${divertKey}.${process.env.OKTETO_DOMAIN}/chain`;
-  }
-
   // by default, route the request to the service on the current namespace.
-  return `https://serviceb-${process.env.OKTETO_NAMESPACE}.${process.env.OKTETO_DOMAIN}/chain`;
+  return `http://serviceb:8080/chain`;
 }
 
 async function callDownstreamService(headers) {
@@ -59,6 +53,11 @@ app.get("/", function (req, res) {
 
 app.get("/chain", async function (req, res) {
   console.log("/chain request");
+
+  console.log("/chain request headers:");
+  Object.keys(req.headers).forEach((key) => {
+    console.log(`${key}: ${req.headers[key]}`);
+  });
 
   try {
     const data = await callDownstreamService(req.headers);

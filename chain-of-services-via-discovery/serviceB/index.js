@@ -2,12 +2,12 @@ import got from "got";
 import express from "express";
 
 const app = express();
-const oktetoDivertHeader = "baggage.okteto-divert";
+const baggageHeader = "baggage";
 const PORT = 8080;
 
-function getDivertKeyFromHeaders(headers) {
-  if (headers && headers[oktetoDivertHeader]) {
-    return headers[oktetoDivertHeader];
+function getBaggageHeader(headers) {
+  if (headers && headers[baggageHeader]) {
+    return headers[baggageHeader];
   }
 
   return undefined;
@@ -15,9 +15,9 @@ function getDivertKeyFromHeaders(headers) {
 
 function buildHeaders(headers) {
   var options = { headers: {} };
-  const divertKey = getDivertKeyFromHeaders(headers);
-  if (divertKey) {
-    options.headers["baggage.okteto-divert"] = divertKey;
+  const baggage = getBaggageHeader(headers);
+  if (baggage) {
+    options.headers[baggageHeader] = baggage;
     //add other headers that you might need to propagate
   }
 
@@ -44,6 +44,11 @@ app.get("/", function (req, res) {
 
 app.get("/chain", async function (req, res) {
   console.log("/chain request");
+
+  console.log("/chain request headers:");
+  Object.keys(req.headers).forEach((key) => {
+    console.log(`${key}: ${req.headers[key]}`);
+  });
 
   try {
     const data = await callDownstreamService(req.headers);
