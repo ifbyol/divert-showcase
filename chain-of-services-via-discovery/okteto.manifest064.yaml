@@ -1,0 +1,32 @@
+deploy:
+  compose:
+    file: docker-compose.yaml
+    services:
+      - serviceat
+      - servicean
+      - servicecy
+      - servicedv
+      - servicebh
+  divert:
+    namespace: $SHARED_NAMESPACE
+dev:
+  serviceat:
+    command: bash
+    sync:
+      - serviceat:/usr/src/app
+  servicean:
+    command: bash
+    sync:
+      - servicean:/usr/src/app
+  servicecy:
+    command: bash
+    sync:
+      - servicecy:/usr/src/app
+  servicedv:
+    command: bash
+    sync:
+      - servicedv:/usr/src/app
+  servicebh:
+    command: bash
+    sync:
+      - servicebh:/usr/src/app

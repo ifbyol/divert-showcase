@@ -1,0 +1,32 @@
+deploy:
+  compose:
+    file: docker-compose.yaml
+    services:
+      - servicedg
+      - serviceai
+      - servicees
+      - serviceeq
+      - servicebc
+  divert:
+    namespace: $SHARED_NAMESPACE
+dev:
+  servicedg:
+    command: bash
+    sync:
+      - servicedg:/usr/src/app
+  serviceai:
+    command: bash
+    sync:
+      - serviceai:/usr/src/app
+  servicees:
+    command: bash
+    sync:
+      - servicees:/usr/src/app
+  serviceeq:
+    command: bash
+    sync:
+      - serviceeq:/usr/src/app
+  servicebc:
+    command: bash
+    sync:
+      - servicebc:/usr/src/app

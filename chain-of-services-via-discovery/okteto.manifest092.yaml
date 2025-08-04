@@ -1,0 +1,32 @@
+deploy:
+  compose:
+    file: docker-compose.yaml
+    services:
+      - servicefl
+      - servicefa
+      - servicegl
+      - serviceg
+      - servicefe
+  divert:
+    namespace: $SHARED_NAMESPACE
+dev:
+  servicefl:
+    command: bash
+    sync:
+      - servicefl:/usr/src/app
+  servicefa:
+    command: bash
+    sync:
+      - servicefa:/usr/src/app
+  servicegl:
+    command: bash
+    sync:
+      - servicegl:/usr/src/app
+  serviceg:
+    command: bash
+    sync:
+      - serviceg:/usr/src/app
+  servicefe:
+    command: bash
+    sync:
+      - servicefe:/usr/src/app
