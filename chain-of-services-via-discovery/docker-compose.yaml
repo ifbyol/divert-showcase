@@ -500,3 +500,503 @@ services:
       context: servicecv
     ports:
       - 8080
+  servicecw:
+    build:
+      context: servicecw
+    ports:
+      - 8080
+  servicecx:
+    build:
+      context: servicecx
+    ports:
+      - 8080
+  servicecy:
+    build:
+      context: servicecy
+    ports:
+      - 8080
+  servicecz:
+    build:
+      context: servicecz
+    ports:
+      - 8080
+  serviceda:
+    build:
+      context: serviceda
+    ports:
+      - 8080
+  servicedb:
+    build:
+      context: servicedb
+    ports:
+      - 8080
+  servicedc:
+    build:
+      context: servicedc
+    ports:
+      - 8080
+  servicedd:
+    build:
+      context: servicedd
+    ports:
+      - 8080
+  servicede:
+    build:
+      context: servicede
+    ports:
+      - 8080
+  servicedf:
+    build:
+      context: servicedf
+    ports:
+      - 8080
+  servicedg:
+    build:
+      context: servicedg
+    ports:
+      - 8080
+  servicedh:
+    build:
+      context: servicedh
+    ports:
+      - 8080
+  servicedi:
+    build:
+      context: servicedi
+    ports:
+      - 8080
+  servicedj:
+    build:
+      context: servicedj
+    ports:
+      - 8080
+  servicedk:
+    build:
+      context: servicedk
+    ports:
+      - 8080
+  servicedl:
+    build:
+      context: servicedl
+    ports:
+      - 8080
+  servicedm:
+    build:
+      context: servicedm
+    ports:
+      - 8080
+  servicedn:
+    build:
+      context: servicedn
+    ports:
+      - 8080
+  servicedo:
+    build:
+      context: servicedo
+    ports:
+      - 8080
+  servicedp:
+    build:
+      context: servicedp
+    ports:
+      - 8080
+  servicedq:
+    build:
+      context: servicedq
+    ports:
+      - 8080
+  servicedr:
+    build:
+      context: servicedr
+    ports:
+      - 8080
+  serviceds:
+    build:
+      context: serviceds
+    ports:
+      - 8080
+  servicedt:
+    build:
+      context: servicedt
+    ports:
+      - 8080
+  servicedu:
+    build:
+      context: servicedu
+    ports:
+      - 8080
+  servicedv:
+    build:
+      context: servicedv
+    ports:
+      - 8080
+  servicedw:
+    build:
+      context: servicedw
+    ports:
+      - 8080
+  servicedx:
+    build:
+      context: servicedx
+    ports:
+      - 8080
+  servicedy:
+    build:
+      context: servicedy
+    ports:
+      - 8080
+  servicedz:
+    build:
+      context: servicedz
+    ports:
+      - 8080
+  serviceea:
+    build:
+      context: serviceea
+    ports:
+      - 8080
+  serviceeb:
+    build:
+      context: serviceeb
+    ports:
+      - 8080
+  serviceec:
+    build:
+      context: serviceec
+    ports:
+      - 8080
+  serviceed:
+    build:
+      context: serviceed
+    ports:
+      - 8080
+  serviceee:
+    build:
+      context: serviceee
+    ports:
+      - 8080
+  serviceef:
+    build:
+      context: serviceef
+    ports:
+      - 8080
+  serviceeg:
+    build:
+      context: serviceeg
+    ports:
+      - 8080
+  serviceeh:
+    build:
+      context: serviceeh
+    ports:
+      - 8080
+  serviceei:
+    build:
+      context: serviceei
+    ports:
+      - 8080
+  serviceej:
+    build:
+      context: serviceej
+    ports:
+      - 8080
+  serviceek:
+    build:
+      context: serviceek
+    ports:
+      - 8080
+  serviceel:
+    build:
+      context: serviceel
+    ports:
+      - 8080
+  serviceem:
+    build:
+      context: serviceem
+    ports:
+      - 8080
+  serviceen:
+    build:
+      context: serviceen
+    ports:
+      - 8080
+  serviceeo:
+    build:
+      context: serviceeo
+    ports:
+      - 8080
+  serviceep:
+    build:
+      context: serviceep
+    ports:
+      - 8080
+  serviceeq:
+    build:
+      context: serviceeq
+    ports:
+      - 8080
+  serviceer:
+    build:
+      context: serviceer
+    ports:
+      - 8080
+  servicees:
+    build:
+      context: servicees
+    ports:
+      - 8080
+  serviceet:
+    build:
+      context: serviceet
+    ports:
+      - 8080
+  serviceeu:
+    build:
+      context: serviceeu
+    ports:
+      - 8080
+  serviceev:
+    build:
+      context: serviceev
+    ports:
+      - 8080
+  serviceew:
+    build:
+      context: serviceew
+    ports:
+      - 8080
+  serviceex:
+    build:
+      context: serviceex
+    ports:
+      - 8080
+  serviceey:
+    build:
+      context: serviceey
+    ports:
+      - 8080
+  serviceez:
+    build:
+      context: serviceez
+    ports:
+      - 8080
+  servicefa:
+    build:
+      context: servicefa
+    ports:
+      - 8080
+  servicefb:
+    build:
+      context: servicefb
+    ports:
+      - 8080
+  servicefc:
+    build:
+      context: servicefc
+    ports:
+      - 8080
+  servicefd:
+    build:
+      context: servicefd
+    ports:
+      - 8080
+  servicefe:
+    build:
+      context: servicefe
+    ports:
+      - 8080
+  serviceff:
+    build:
+      context: serviceff
+    ports:
+      - 8080
+  servicefg:
+    build:
+      context: servicefg
+    ports:
+      - 8080
+  servicefh:
+    build:
+      context: servicefh
+    ports:
+      - 8080
+  servicefi:
+    build:
+      context: servicefi
+    ports:
+      - 8080
+  servicefj:
+    build:
+      context: servicefj
+    ports:
+      - 8080
+  servicefk:
+    build:
+      context: servicefk
+    ports:
+      - 8080
+  servicefl:
+    build:
+      context: servicefl
+    ports:
+      - 8080
+  servicefm:
+    build:
+      context: servicefm
+    ports:
+      - 8080
+  servicefn:
+    build:
+      context: servicefn
+    ports:
+      - 8080
+  servicefo:
+    build:
+      context: servicefo
+    ports:
+      - 8080
+  servicefp:
+    build:
+      context: servicefp
+    ports:
+      - 8080
+  servicefq:
+    build:
+      context: servicefq
+    ports:
+      - 8080
+  servicefr:
+    build:
+      context: servicefr
+    ports:
+      - 8080
+  servicefs:
+    build:
+      context: servicefs
+    ports:
+      - 8080
+  serviceft:
+    build:
+      context: serviceft
+    ports:
+      - 8080
+  servicefu:
+    build:
+      context: servicefu
+    ports:
+      - 8080
+  servicefv:
+    build:
+      context: servicefv
+    ports:
+      - 8080
+  servicefw:
+    build:
+      context: servicefw
+    ports:
+      - 8080
+  servicefx:
+    build:
+      context: servicefx
+    ports:
+      - 8080
+  servicefy:
+    build:
+      context: servicefy
+    ports:
+      - 8080
+  servicefz:
+    build:
+      context: servicefz
+    ports:
+      - 8080
+  servicega:
+    build:
+      context: servicega
+    ports:
+      - 8080
+  servicegb:
+    build:
+      context: servicegb
+    ports:
+      - 8080
+  servicegc:
+    build:
+      context: servicegc
+    ports:
+      - 8080
+  servicegd:
+    build:
+      context: servicegd
+    ports:
+      - 8080
+  servicege:
+    build:
+      context: servicege
+    ports:
+      - 8080
+  servicegf:
+    build:
+      context: servicegf
+    ports:
+      - 8080
+  servicegg:
+    build:
+      context: servicegg
+    ports:
+      - 8080
+  servicegh:
+    build:
+      context: servicegh
+    ports:
+      - 8080
+  servicegi:
+    build:
+      context: servicegi
+    ports:
+      - 8080
+  servicegj:
+    build:
+      context: servicegj
+    ports:
+      - 8080
+  servicegk:
+    build:
+      context: servicegk
+    ports:
+      - 8080
+  servicegl:
+    build:
+      context: servicegl
+    ports:
+      - 8080
+  servicegm:
+    build:
+      context: servicegm
+    ports:
+      - 8080
+  servicegn:
+    build:
+      context: servicegn
+    ports:
+      - 8080
+  servicego:
+    build:
+      context: servicego
+    ports:
+      - 8080
+  servicegp:
+    build:
+      context: servicegp
+    ports:
+      - 8080
+  servicegq:
+    build:
+      context: servicegq
+    ports:
+      - 8080
+  servicegr:
+    build:
+      context: servicegr
+    ports:
+      - 8080
