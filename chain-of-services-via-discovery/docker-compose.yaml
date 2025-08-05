@@ -4,999 +4,1799 @@ services:
       context: servicea
     ports:
       - 8080:8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceb:
     build:
       context: serviceb
     ports:
       - 8080:8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicec:
     build:
       context: servicec
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
 
   serviced:
     build:
       context: serviced
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicee:
     build:
       context: servicee
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicef:
     build:
       context: servicef
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceg:
     build:
       context: serviceg
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceh:
     build:
       context: serviceh
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicei:
     build:
       context: servicei
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicej:
     build:
       context: servicej
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicek:
     build:
       context: servicek
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicel:
     build:
       context: servicel
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicem:
     build:
       context: servicem
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicen:
     build:
       context: servicen
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceo:
     build:
       context: serviceo
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicep:
     build:
       context: servicep
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceq:
     build:
       context: serviceq
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicer:
     build:
       context: servicer
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   services:
     build:
       context: services
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicet:
     build:
       context: servicet
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceu:
     build:
       context: serviceu
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicev:
     build:
       context: servicev
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicew:
     build:
       context: servicew
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicex:
     build:
       context: servicex
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicey:
     build:
       context: servicey
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicez:
     build:
       context: servicez
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceaa:
     build:
       context: serviceaa
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceab:
     build:
       context: serviceab
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceac:
     build:
       context: serviceac
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicead:
     build:
       context: servicead
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceae:
     build:
       context: serviceae
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceaf:
     build:
       context: serviceaf
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceag:
     build:
       context: serviceag
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceah:
     build:
       context: serviceah
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceai:
     build:
       context: serviceai
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceaj:
     build:
       context: serviceaj
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceak:
     build:
       context: serviceak
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceal:
     build:
       context: serviceal
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceam:
     build:
       context: serviceam
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicean:
     build:
       context: servicean
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceao:
     build:
       context: serviceao
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceap:
     build:
       context: serviceap
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceaq:
     build:
       context: serviceaq
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicear:
     build:
       context: servicear
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceas:
     build:
       context: serviceas
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceat:
     build:
       context: serviceat
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceau:
     build:
       context: serviceau
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceav:
     build:
       context: serviceav
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceaw:
     build:
       context: serviceaw
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceax:
     build:
       context: serviceax
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceay:
     build:
       context: serviceay
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceaz:
     build:
       context: serviceaz
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceba:
     build:
       context: serviceba
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebb:
     build:
       context: servicebb
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebc:
     build:
       context: servicebc
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebd:
     build:
       context: servicebd
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebe:
     build:
       context: servicebe
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebf:
     build:
       context: servicebf
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebg:
     build:
       context: servicebg
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebh:
     build:
       context: servicebh
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebi:
     build:
       context: servicebi
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebj:
     build:
       context: servicebj
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebk:
     build:
       context: servicebk
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebl:
     build:
       context: servicebl
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebm:
     build:
       context: servicebm
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebn:
     build:
       context: servicebn
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebo:
     build:
       context: servicebo
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebp:
     build:
       context: servicebp
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebq:
     build:
       context: servicebq
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebr:
     build:
       context: servicebr
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebs:
     build:
       context: servicebs
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebt:
     build:
       context: servicebt
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebu:
     build:
       context: servicebu
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebv:
     build:
       context: servicebv
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebw:
     build:
       context: servicebw
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebx:
     build:
       context: servicebx
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceby:
     build:
       context: serviceby
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicebz:
     build:
       context: servicebz
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceca:
     build:
       context: serviceca
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecb:
     build:
       context: servicecb
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecc:
     build:
       context: servicecc
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecd:
     build:
       context: servicecd
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicece:
     build:
       context: servicece
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecf:
     build:
       context: servicecf
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecg:
     build:
       context: servicecg
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicech:
     build:
       context: servicech
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceci:
     build:
       context: serviceci
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecj:
     build:
       context: servicecj
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceck:
     build:
       context: serviceck
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecl:
     build:
       context: servicecl
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecm:
     build:
       context: servicecm
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecn:
     build:
       context: servicecn
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceco:
     build:
       context: serviceco
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecp:
     build:
       context: servicecp
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecq:
     build:
       context: servicecq
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecr:
     build:
       context: servicecr
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecs:
     build:
       context: servicecs
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicect:
     build:
       context: servicect
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecu:
     build:
       context: servicecu
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecv:
     build:
       context: servicecv
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecw:
     build:
       context: servicecw
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecx:
     build:
       context: servicecx
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecy:
     build:
       context: servicecy
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicecz:
     build:
       context: servicecz
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceda:
     build:
       context: serviceda
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedb:
     build:
       context: servicedb
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedc:
     build:
       context: servicedc
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedd:
     build:
       context: servicedd
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicede:
     build:
       context: servicede
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedf:
     build:
       context: servicedf
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedg:
     build:
       context: servicedg
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedh:
     build:
       context: servicedh
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedi:
     build:
       context: servicedi
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedj:
     build:
       context: servicedj
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedk:
     build:
       context: servicedk
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedl:
     build:
       context: servicedl
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedm:
     build:
       context: servicedm
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedn:
     build:
       context: servicedn
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedo:
     build:
       context: servicedo
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedp:
     build:
       context: servicedp
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedq:
     build:
       context: servicedq
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedr:
     build:
       context: servicedr
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceds:
     build:
       context: serviceds
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedt:
     build:
       context: servicedt
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedu:
     build:
       context: servicedu
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedv:
     build:
       context: servicedv
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedw:
     build:
       context: servicedw
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedx:
     build:
       context: servicedx
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedy:
     build:
       context: servicedy
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicedz:
     build:
       context: servicedz
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceea:
     build:
       context: serviceea
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceeb:
     build:
       context: serviceeb
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceec:
     build:
       context: serviceec
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceed:
     build:
       context: serviceed
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceee:
     build:
       context: serviceee
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceef:
     build:
       context: serviceef
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceeg:
     build:
       context: serviceeg
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceeh:
     build:
       context: serviceeh
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceei:
     build:
       context: serviceei
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceej:
     build:
       context: serviceej
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceek:
     build:
       context: serviceek
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceel:
     build:
       context: serviceel
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceem:
     build:
       context: serviceem
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceen:
     build:
       context: serviceen
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceeo:
     build:
       context: serviceeo
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceep:
     build:
       context: serviceep
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceeq:
     build:
       context: serviceeq
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceer:
     build:
       context: serviceer
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicees:
     build:
       context: servicees
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceet:
     build:
       context: serviceet
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceeu:
     build:
       context: serviceeu
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceev:
     build:
       context: serviceev
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceew:
     build:
       context: serviceew
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceex:
     build:
       context: serviceex
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceey:
     build:
       context: serviceey
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceez:
     build:
       context: serviceez
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefa:
     build:
       context: servicefa
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefb:
     build:
       context: servicefb
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefc:
     build:
       context: servicefc
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefd:
     build:
       context: servicefd
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefe:
     build:
       context: servicefe
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceff:
     build:
       context: serviceff
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefg:
     build:
       context: servicefg
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefh:
     build:
       context: servicefh
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefi:
     build:
       context: servicefi
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefj:
     build:
       context: servicefj
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefk:
     build:
       context: servicefk
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefl:
     build:
       context: servicefl
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefm:
     build:
       context: servicefm
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefn:
     build:
       context: servicefn
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefo:
     build:
       context: servicefo
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefp:
     build:
       context: servicefp
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefq:
     build:
       context: servicefq
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefr:
     build:
       context: servicefr
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefs:
     build:
       context: servicefs
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   serviceft:
     build:
       context: serviceft
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefu:
     build:
       context: servicefu
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefv:
     build:
       context: servicefv
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefw:
     build:
       context: servicefw
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefx:
     build:
       context: servicefx
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefy:
     build:
       context: servicefy
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicefz:
     build:
       context: servicefz
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicega:
     build:
       context: servicega
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegb:
     build:
       context: servicegb
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegc:
     build:
       context: servicegc
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegd:
     build:
       context: servicegd
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicege:
     build:
       context: servicege
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegf:
     build:
       context: servicegf
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegg:
     build:
       context: servicegg
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegh:
     build:
       context: servicegh
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegi:
     build:
       context: servicegi
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegj:
     build:
       context: servicegj
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegk:
     build:
       context: servicegk
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegl:
     build:
       context: servicegl
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegm:
     build:
       context: servicegm
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegn:
     build:
       context: servicegn
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicego:
     build:
       context: servicego
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegp:
     build:
       context: servicegp
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegq:
     build:
       context: servicegq
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
   servicegr:
     build:
       context: servicegr
     ports:
       - 8080
+    resources:
+      requests:
+        cpu: "20m"
+        memory: "100Mi"
